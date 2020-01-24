@@ -13,7 +13,7 @@ steps:
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
-    ConnectedServiceName: ' SpatialVision'
+    ConnectedServiceName: 'SpatialVision'
     subscriptionName: '8cc4a534-f2bc-4d2e-a3fb-29bcd6694e03'
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'WaterLiveTest'
