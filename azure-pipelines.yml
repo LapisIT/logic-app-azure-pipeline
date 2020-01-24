@@ -19,5 +19,4 @@ steps:
     resourceGroupName: 'WaterLiveTest'
     location: 'Australia Southeast'
     templateLocation: 'Linked artifact'
-    csmFile: 'CreateAzureStorage/azuredeploy.json'
     deploymentMode: 'Incremental'
